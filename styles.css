@@ -20,7 +20,7 @@ body {
 
 /* Container for centering content */
 .container {
-    width: 80%;
+    width: 81%;
     margin: 0 auto;
     padding-top: 120px; /* Extra padding to account for fixed nav */
 }
@@ -54,7 +54,7 @@ nav {
 }
 
 .nav-links li {
-    margin: 0 20px;
+    margin:  20px;
 }
 
 .nav-links a {
@@ -82,11 +82,12 @@ nav {
 /* Header content styles */
 .header-content {
     max-width: 700px;
-    margin: 0 auto;
+    margin: 50px auto;
     text-align: center;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
+    
 }
 
 .header-content h1 {
@@ -113,6 +114,7 @@ nav {
     display: flex;
     justify-content: center;
     gap: 20px;
+
 }
 
 .btn {
@@ -141,11 +143,11 @@ nav {
 }
 
 .btn.secondary {
-    background-color: #555;
+    background-color: #060606;
 }
 
 .btn.secondary:hover {
-    background-color: #666;
+    background-color: #e50044;
 }
 
 /* Responsive Design */
