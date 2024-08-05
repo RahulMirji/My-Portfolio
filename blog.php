@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog-post</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Blog Specific Styles */
+        .blog-container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .blog-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .blog-header h1 {
+            font-size: 36px;
+            color: #333;
+        }
+        .blog-header p {
+            font-size: 18px;
+            color: #666;
+        }
+        .blog-post {
+            display: flex;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+        .blog-image {
+            width: 300px;
+            height: 200px;
+            margin-right: 20px;
+            border-radius: 10px;
+        }
+        .blog-content {
+            max-width: 700px;
+            background-color: #494848;
+            padding: 40px;
+            border-radius: 10px;
+            color: #fff;
+            box-shadow: 0 4px 8px rgba(60, 60, 60, 0.1);
+        }
+        .blog-content h2 {
+            font-size: 28px;
+            color: #fff;
+        }
+        .post-date {
+            font-size: 14px;
+            color: #ccc;
+        }
+        .blog-content p {
+            font-size: 16px;
+            color: #ddd;
+        }
+        .read-more {
+            display: inline-flex;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background: #dc0a0a;
+            color: #f1ecec;
+            text-decoration: none;
+            border-radius: 5px;
+                
+        }
+        .read-more:hover {
+            color: #fff;
+            transition: background-color 0.3s;
+            display: inline-flex;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #333;
+            color: #fff;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <?php 
+    include 'nav.php';
+    ?>
+    <section class="blog-container">
+        <div class="blog-header">
+            <h1>Welcome to My Blog</h1>
+            <p>Insights, thoughts, and updates on AI, technology, and more!</p>
+        </div>
+
+        <!-- Blog Post Example -->
+        <div class="blog-post">
+            <img src="Images/blog.gif" alt="Blog Post Image" class="blog-image">
+            <section class="blog-content">
+                <h2>Understanding the Basics of Artificial Intelligence</h2>
+                <p class="post-date">August 5, 2024</p>
+                <p>
+                    Artificial Intelligence (AI) is a rapidly growing field, transforming industries and impacting daily life. In this blog post, we'll explore the basics of AI, its applications, and its future potential.
+                </p>
+                <a href="post1.html" class="read-more">Read More</a>
+            </section>
+        </div>
+
+        <!-- More blog posts can be added in a similar format -->
+
+    </section>
+    <div>
+        <center>
+            <button><a href="index.php">Back Home</a></button>
+        </center>
+    </div>
+</body>
+</html>
