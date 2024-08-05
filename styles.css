@@ -120,7 +120,7 @@ nav {
 
 .btn {
     background-color: #ff004c;
-    color: #fff;
+    color: #fff;  /* Text color set to white */
     padding: 15px 30px;
     text-decoration: none;
     font-weight: bold;
@@ -132,7 +132,7 @@ nav {
 
 .btn span {
     margin-left: 10px;
-    
+    transition: margin-left 0.3s;
 }
 
 .btn:hover span {
@@ -140,9 +140,9 @@ nav {
 }
 
 .btn.secondary {
-    background-color: #060606;
+    background-color: #fafafa;
+    color: #fff; /* Text color set to white for secondary button as well */
 }
-
 
 /* Responsive Design */
 @media (max-width: 768px) {

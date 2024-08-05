@@ -20,9 +20,9 @@
         </div>
         <ul class="nav-links">
             <li><a href="index.php">Home</a></li>
-            <li><a href="https://github.com/RahulMirji">Projects</a></li>
-            <li><a href="blog.php">Blog</a></li>
             <li><a href="contact.php">Contact</a></li>
+            <li><a href="blog.php">Blog</a></li>
+            <li><a href="https://github.com/RahulMirji">GitHub</a></li>
             <li><a href="services.php">Services</a></li>
         </ul>
     </nav>    
