@@ -6,50 +6,103 @@
     <title>Web Designer Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <style>
+        /* General styles */
+        *{
+            margin: 0;
+            padding: 60;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Header section */
+        header {
+            background: #f4f4f4;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .header-content {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            color: #fff;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+
         /* CTA buttons */
-.cta-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
 
-.btn {
-    background-color: #181717;
-    color: #fff;
-}
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            border-radius: 5px;
+            font-size: 1em;
+            text-decoration: none;
+            color: #fff;
+            background-color: #181717;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+            text-transform: uppercase;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
 
-.btn span { 
-    margin-left: 10px;
-    transition: margin-left 0.3s;
-}
+        .btn span { 
+            margin-left: 10px;
+            transition: margin-left 0.3s;
+        }
 
-.btn:hover span {
-    margin-left: 15px;
-}
+        .btn:hover {
+            background-color: #333;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
 
-.btn.secondary {
-    background-color: #ed1010;
-    color: #fff; /* Text color set to white for secondary button as well */
-}
+        .btn:hover span {
+            margin-left: 15px;
+        }
 
+        .btn.secondary {
+            background-color: #ed1010;
+            color: #fff;
+        }
+
+        .btn.secondary:hover {
+            background-color: #d00d0d;
+        }
     </style>
 </head>
 <body>
-    <style>
-        body{
-            background-color: #181717;
-        }
-        
-    </style>
 
 <?php include 'nav.php'; ?>
 
 <header>
     <div class="container">
-    
         <div class="header-content">
-            <h1>Websites Done Right</h1>
-            <p>I am a web developer from Bengaluru, India, and I currently live in Bengaluru. I enjoy building everything from small business sites to rich interactive web apps. If you are a business seeking a web presence or an employer looking to hire, you can get in touch with me <a href="#">here</a>.</p>
+            <h1 align="left">Websites Done Right</h1>
+            <p>I am a web developer from Bengaluru, India, and I currently live in Bengaluru. I enjoy building everything from small business sites to rich interactive web apps. If you are a business seeking a web presence or an employer looking to hire, you can get in touch with me <a href="contact.php">here</a>.</p>
             <div class="cta-buttons">
                 <a href="#" class="btn">I need a website <span>&#10145;</span></a>
                 <a href="#" class="btn secondary">I'm looking to hire <span>&#10145;</span></a>

@@ -11,6 +11,7 @@
             width: 80%;
             margin: 0 auto;
             padding: 20px;
+            margin-top: 60px;
         }
         .blog-header {
             text-align: center;
@@ -110,16 +111,10 @@
                 <a href="https://rahulmirji444.blogspot.com/" target="_blank" class="read-more">Read More</a>
             </section>
         </div>
-
-        <!-- More blog posts can be added in a similar format -->
-
     </section>
-    <div>
         <center>
             <button><a href="index.php" class="back-home">Back Home</a></button>
         </center>
-    </div>
-    <br>
     <br>
 </body>
 </html>

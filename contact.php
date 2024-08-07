@@ -179,6 +179,7 @@ footer {
     </style>
 </head>
 <body>
+<?php include 'nav.php'; ?>
     <section id="contact">
         <h2>Contact Me</h2>
         <p>Feel free to reach out to me through any of the following methods:</p>
