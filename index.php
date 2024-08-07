@@ -18,7 +18,7 @@
     color: #fff;
 }
 
-.btn span {
+.btn span { 
     margin-left: 10px;
     transition: margin-left 0.3s;
 }
@@ -35,6 +35,12 @@
     </style>
 </head>
 <body>
+    <style>
+        body{
+            background-color: #181717;
+        }
+        
+    </style>
 
 <?php include 'nav.php'; ?>
 

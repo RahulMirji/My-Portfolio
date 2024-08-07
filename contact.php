@@ -147,7 +147,12 @@ button[type="submit"]:hover {
 }
 
 .back-home:hover {
-    background-color: #f4b41a;
+    background-color: #491af4;
+}
+
+.logo,h1,h5{
+    color: #fff;
+    
 }
 
 /* Footer */
@@ -193,9 +198,9 @@ footer {
             <div class="contact-item">
                 <h3>Social Media</h3>
                 <p>
-                    <a href="https://www.linkedin.com/in/rahul" target="_blank">LinkedIn</a> |
-                    <a href="https://github.com/rahul" target="_blank">GitHub</a> |
-                    <a href="https://twitter.com/rahul" target="_blank">Twitter</a>
+                    <a href="https://www.linkedin.com/in/rahul-mirji-7764551ba/?originalSubdomain=in" target="_blank">LinkedIn</a> |
+                    <a href="https://github.com/RahulMirji" target="_blank">GitHub</a> |
+                    <a href="" target="_blank">Twitter</a>
                 </p>
             </div>
         </div>

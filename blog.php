@@ -71,6 +71,14 @@
             transition: background-color 0.3s;
             display: inline-flex;
         }
+        .back-home {
+        text-decoration: none;
+        color: #fff;
+        padding: 10px 20px;
+        background-color: #333;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        }
         footer {
             text-align: center;
             padding: 20px 0;
@@ -99,7 +107,7 @@
                 <p>
                     Artificial Intelligence (AI) is a rapidly growing field, transforming industries and impacting daily life. In this blog post, we'll explore the basics of AI, its applications, and its future potential.
                 </p>
-                <a href="post1.html" class="read-more">Read More</a>
+                <a href="https://rahulmirji444.blogspot.com/" target="_blank" class="read-more">Read More</a>
             </section>
         </div>
 
@@ -108,8 +116,10 @@
     </section>
     <div>
         <center>
-            <button><a href="index.php">Back Home</a></button>
+            <button><a href="index.php" class="back-home">Back Home</a></button>
         </center>
     </div>
+    <br>
+    <br>
 </body>
 </html>
