@@ -227,14 +227,7 @@ footer {
        <button> <a href="index.php" class="back-home">Back Home</a></button>
         </center>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
     <footer>
-    <?php
-    include "footer.php"
-    ?>
     </footer>
 </body>
 </html>
