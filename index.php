@@ -14,13 +14,8 @@
 }
 
 .btn {
-    padding: 15px 30px;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    display: inline-flex;
-    align-items: center;
+    background-color: #181717;
+    color: #fff;
 }
 
 .btn span {
@@ -33,7 +28,7 @@
 }
 
 .btn.secondary {
-    background-color: #181717;
+    background-color: #ed1010;
     color: #fff; /* Text color set to white for secondary button as well */
 }
 
