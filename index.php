@@ -5,6 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Designer Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* CTA buttons */
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    display: inline-flex;
+    align-items: center;
+}
+
+.btn span {
+    margin-left: 10px;
+    transition: margin-left 0.3s;
+}
+
+.btn:hover span {
+    margin-left: 15px;
+}
+
+.btn.secondary {
+    background-color: #181717;
+    color: #fff; /* Text color set to white for secondary button as well */
+}
+
+    </style>
 </head>
 <body>
 
