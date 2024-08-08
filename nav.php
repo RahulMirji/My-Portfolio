@@ -37,16 +37,12 @@
             margin-bottom: 20px;
             justify-content: space-between;
             align-items: center;
-            background-color: rgba(29, 28, 28, 0.9);
+            background-color: rgba(29, 28, 28, 0.978);
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
             z-index: 1000;
             transition: background-color 0.3s ease;
         }
-
-        nav:hover {
-            background-color: rgba(29, 28, 28, 0.9);
-        }
-
+        
         .logo {
             display: flex;
             align-items: center;
@@ -129,7 +125,7 @@
             margin: 100px auto;
             text-align: center;
             padding: 30px;
-            background-color: rgba(16, 16, 16, 0.7);
+            background-color: rgba(16, 16, 16, 0.822);
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
