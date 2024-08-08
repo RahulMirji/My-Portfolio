@@ -9,16 +9,16 @@
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             margin: 0;
-            padding: 20px;
+            padding: 30px;
         }
 
         .form-container {
             background-color: #ffffff;
-            padding: 20px;
+            padding: 40px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             max-width: 600px;
-            margin: auto;
+            margin: 110px auto 20px;
         }
 
         .form-container h2 {
@@ -65,9 +65,19 @@
         .form-group button:hover {
             background-color: #0056b3;
         }
+        /* Back Home Button */
+        .back-home {
+         text-decoration: none;
+         color: #fff;
+         padding: 10px 20px;
+         background-color: #333;
+         border-radius: 5px;
+         transition: background-color 0.3s ease;
+        }
     </style>
 </head>
 <body>
+<?php include 'nav.php'; ?>
 
     <div class="form-container">
         <h2>Website Request Form</h2>
@@ -111,6 +121,11 @@
                 <button type="submit">Submit Request</button>
             </div>
         </form>
+    </div>
+    <div>
+        <center>
+       <button> <a href="index.php" class="back-home">Back Home</a></button>
+        </center>
     </div>
 
 </body>
