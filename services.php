@@ -77,12 +77,9 @@
         border-radius: 5px;
         transition: background-color 0.3s ease;
         }
-        footer {
-            background-color: #333;
-            color: #fff;
+        .back-home-container {
+            margin: 40px 0; /* Added margin for top and bottom gap */
             text-align: center;
-            padding: 20px;
-            margin-top: 40px;
         }
     </style>
 </head>
@@ -110,7 +107,7 @@
             <div class="service-box">
                 <h2>Blogging</h2>
                 <p>I write informative and engaging blogs on AI, technology, and more. If you’re looking for insightful content that resonates with tech enthusiasts, check out my blog for the latest posts.</p>
-                <a href="blog.php">Read My Blog</a>
+                <a href="https://rahulmirji444.blogspot.com/" target="_blank">Read My Blog</a>
             </div>
 
             <!-- AI/ML Projects Service -->
@@ -121,13 +118,15 @@
             </div>
         </div>
     </section>
-        <center>
-            <button><a href="index.php" class="back-home">Back Home</a></button>
-        </center>
+    <div class="back-home-container">
+        <a href="index.php" class="back-home">Back Home</a>
+    </div>
 
     <!-- Footer -->
     <footer>
-        &copy; 2024 Rahul's Portfolio | All Rights Reserved
+        <?php
+        include "footer.php"
+        ?>
     </footer>
 </body>
 </html>

@@ -37,7 +37,7 @@
             margin-bottom: 20px;
             justify-content: space-between;
             align-items: center;
-            background-color: rgba(29, 28, 28, 0.978);
+            background-color: #282828;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
             z-index: 1000;
             transition: background-color 0.3s ease;
@@ -119,38 +119,7 @@
             width: 100%;
         }
 
-        /* Header content styles */
-        .header-content {
-            max-width: 700px;
-            margin: 100px auto;
-            text-align: center;
-            padding: 30px;
-            background-color: rgba(16, 16, 16, 0.822);
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-        }
 
-        .header-content h1 {
-            font-size: 3em;
-            color: #fff;
-            margin-bottom: 20px;
-        }
-
-        .header-content p {
-            font-size: 1.2em;
-            color: #ddd;
-            margin-bottom: 40px;
-        }
-
-        .header-content a {
-            color: #ff004c;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .header-content a:hover {
-            text-decoration: underline;
-        }
 
         /* Responsive Design */
         @media (max-width: 768px) {
@@ -219,7 +188,7 @@
             <li><a href="index.php">Home</a></li>
             <li><a href="contact.php">Contact</a></li>
             <li><a href="blog.php">Blog</a></li>
-            <li><a href="https://github.com/RahulMirji">GitHub</a></li>
+            <li><a href="https://github.com/RahulMirji" target="_blank">GitHub</a></li>
             <li><a href="services.php">Services</a></li>
         </ul>
     </nav>    

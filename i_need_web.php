@@ -127,6 +127,10 @@
        <button> <a href="index.php" class="back-home">Back Home</a></button>
         </center>
     </div>
-
+    <footer>
+        <?php
+        include "footer.php"
+        ?>
+    </footer>
 </body>
 </html>

@@ -17,7 +17,38 @@
             padding: 0;
         }
         
-        /* Header section */
+        /* Header content styles */
+        .header-content {
+            max-width: 700px;
+            margin: 100px auto;
+            text-align: center;
+            padding: 30px;
+            background-color: rgb(27, 28, 29);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .header-content h1 {
+            font-size: 3em;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+
+        .header-content p {
+            font-size: 1.2em;
+            color: #fff;
+            margin-bottom: 40px;
+        }
+
+        .header-content a {
+            color: #ff004c;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .header-content a:hover {
+            text-decoration: underline;
+        }
         header {
             background: #f4f4f4;
             padding: 50px 0;
@@ -36,7 +67,7 @@
 
         h1 {
             font-size: 2.5em;
-            color: #333;
+            color: #1070bf35;
             margin-bottom: 20px;
         }
 
@@ -111,8 +142,9 @@
     </div>
 </header>
 <footer>
-
-
+        <?php
+        include "footer.php"
+        ?>
 </footer>
 </body>
 </html>
